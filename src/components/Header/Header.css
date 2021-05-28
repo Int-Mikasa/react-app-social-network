@@ -1,0 +1,33 @@
+.app-header {
+    height: 55px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.app-header-login {
+    color: white;
+}
+
+.app-header-auth {
+    display: flex;
+    align-self: center;
+}
+
+.app-header-logo-img {
+    max-width: 150px;
+}
+
+.app-header-space {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.app-header-nav-img {
+    max-width: 32px;
+}

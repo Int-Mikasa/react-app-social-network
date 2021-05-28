@@ -1,0 +1,35 @@
+.app-navigation-links {
+    color: white;
+    margin-top: 30px;
+
+}
+
+.app-navigation-links a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.app-navigation {
+    margin-right: 20px;
+    height: 700px;
+    background-color: #ffff;
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.active {
+    color: red !important;
+}
+
+.app-navigation-friend {
+    display: flex;
+    flex-basis: 20%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.app-friend{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

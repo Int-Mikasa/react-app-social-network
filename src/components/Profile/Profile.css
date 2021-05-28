@@ -1,0 +1,68 @@
+.app-content {
+    flex-basis: 80%;
+}
+
+.app-content-profile {
+    display: flex;
+}
+
+.app-img {
+    margin-right: 50px;
+}
+
+.app-main-img {
+    max-height: 200px;
+    position: relative;
+    z-index: 0;
+    max-width: 200px;
+    border-radius: 50%;
+
+}
+
+.app-content-profile-name {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.app-content-profile-description p {
+    padding: 0;
+    margin: 0;
+}
+
+.app-content-profile-posts {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-content-profile-posts textarea {
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.app-content-profile-posts button {
+    align-self: flex-end;
+}
+
+.app-messages {
+    background: #ccebd4;
+    height: 200px;
+    display: flex;
+}
+
+.app-messages-users {
+    flex-basis: 20%;
+}
+
+.app-message {
+    flex-basis: 80%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+}
+
+.app-content-profile-page {
+    display: flex;
+    flex-direction: column;
+}
